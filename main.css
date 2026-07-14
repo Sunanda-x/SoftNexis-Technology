@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8f0e3;
+  color: #333;
+}
+
+header {
+  background: #5d4037;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav a {
+  color: #ffcc80;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 2rem;
+}
+
+img {
+  max-width: 300px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+footer {
+  background: #3e2723;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
